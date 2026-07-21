@@ -359,6 +359,20 @@ r.Use(cors.New(cors.Config{
 
 👉 **[https://laobi465.github.io/yunzhuru/](https://laobi465.github.io/yunzhuru/)**
 
+### 首次启用 GitHub Pages
+
+推送代码后，需在 GitHub 仓库手动启用 Pages：
+
+1. 打开 [仓库设置](https://github.com/laobi465/yunzhuru/settings/pages)
+2. **Build and deployment** → **Source** 选择 `GitHub Actions`
+3. 保存后，下次推送将自动触发部署工作流
+
+也可使用 `gh` CLI 一键启用：
+
+```bash
+gh api -X POST /repos/laobi465/yunzhuru/pages -f build_type=workflow
+```
+
 ---
 
 ## 📜 许可证
