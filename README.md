@@ -61,8 +61,8 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/laobi465/cloud-injection-client.git
-cd cloud-injection-client
+git clone https://github.com/laobi465/yunzhuru.git
+cd yunzhuru
 
 # 安装依赖
 npm install
@@ -350,6 +350,14 @@ r.Use(cors.New(cors.Config{
 - **wlyz (KeyAuth SaaS)**: [https://github.com/laobi465/wlyz](https://github.com/laobi465/wlyz)
   - 多租户卡密验证 SaaS 平台后端
   - 提供 `/api/v1/client/*` 系列客户端验证 API
+
+---
+
+## 📦 在线 Demo
+
+部署完成后可通过 GitHub Pages 访问在线版本：
+
+👉 **[https://laobi465.github.io/yunzhuru/](https://laobi465.github.io/yunzhuru/)**
 
 ---
 
